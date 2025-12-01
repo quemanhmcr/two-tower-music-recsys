@@ -6,7 +6,7 @@ Dự án xây dựng hệ thống gợi ý âm nhạc quy mô lớn (Large-scale
 
 ## 🚀 Kiến trúc Hệ thống
 
-Hệ thống được thiết kế theo chuẩn "Big Tech" với các module tách biệt:
+Hệ thống được thiết kế với các module tách biệt:
 
 1.  **Data Pipeline (`src/data`)**:
     -   Sử dụng **Polars** để xử lý dữ liệu lớn (Parquet) với tốc độ cao.
@@ -93,6 +93,3 @@ Sau khi train xong, model sẽ tự động:
 ## 📝 Ghi chú
 -   **Cấu hình**: Có thể thay đổi Hyperparameters trong `src/config.py`.
 -   **Dữ liệu**: Mặc định dữ liệu sẽ được lưu tại thư mục `data/` trong cùng thư mục với `src`. Đảm bảo bạn có đủ dung lượng ổ cứng (~2-3GB cho bản demo).
-
----
-*Project refactored by Antigravity Agent.*
