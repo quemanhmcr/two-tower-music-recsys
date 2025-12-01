@@ -1,0 +1,9 @@
+torch>=2.0.0
+numpy
+polars
+datasets
+huggingface_hub
+faiss-gpu
+tqdm
+psutil
+scikit-learn
