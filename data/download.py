@@ -1,7 +1,7 @@
 from huggingface_hub import hf_hub_download
 import polars as pl
 from pathlib import Path
-from ..config import TrainingConfig
+from config import TrainingConfig
 
 def download_data():
     """

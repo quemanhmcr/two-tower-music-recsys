@@ -4,7 +4,7 @@ import numpy as np
 from torch.utils.data import DataLoader
 from tqdm.auto import tqdm
 import gc
-from ..data.dataset import FastItemInferenceDataset
+from data.dataset import FastItemInferenceDataset
 
 def optimized_collate_fn(batch):
     """Custom collate function"""

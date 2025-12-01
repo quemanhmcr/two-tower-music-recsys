@@ -4,7 +4,7 @@ from pathlib import Path
 import gc
 import shutil
 from tqdm import tqdm
-from ..config import TrainingConfig
+from config import TrainingConfig
 
 def process_data():
     """

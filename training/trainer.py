@@ -1,7 +1,7 @@
 import torch
 import time
 from collections import defaultdict
-from ..model.loss import InfoNCELoss
+from model.loss import InfoNCELoss
 from .callbacks import CheckpointManager
 
 class TwoTowerTrainer:

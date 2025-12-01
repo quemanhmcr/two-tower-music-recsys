@@ -16,7 +16,15 @@ venv/
 .idea/
 
 # Project Data (CRITICAL: Do not commit large datasets)
-data/
+# data/  <-- REMOVED to allow src/data module
+data/static/
+data/interactions/
+data/checkpoints/
+data/temp_data/
+data/yambda_data/
+data/remapped_data/
+data/temp_partitions/
+
 checkpoints/
 *.npy
 *.parquet
